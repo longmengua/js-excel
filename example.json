@@ -1,0 +1,64 @@
+{
+  "identity": "身份，先查identity資料表有沒有此身份，若無自動新增，新增完後填入presale資料表",
+  "name": "姓名",
+  "school": "學校",
+  "class": "在校班級",
+  "cellPhone": "手機",
+  "homePhoneNumber": "家用電話",
+  "sourceBranchCampus": "來源分校。parse完excel，檢查是否有此分校名稱，若無，顯示錯誤，查無xxx分校。",
+  "responsibleBranchCampus": "負責分校。parse完excel，檢查是否有此分校名稱，若無，顯示彈窗錯誤，查無xxx分校。",
+  "salesperson": "業務",
+  "applicationTime": "填表時間",
+  "labels": ["xxx","xxx", "檢查label表個是否有此值，若無，顯示彈窗錯誤，查無xxx標前。"],
+  "courses": ["xxx","xxx", "檢查course表個是否有此值，若無，自動新增，並帶入新增後的courseID"],
+  "students": [
+    {
+      "name": "姓名a",
+      "gender": "性別a",
+      "birthdate": "出生年月日(西元年)a",
+      "school": "學校a",
+      "grade": "年級，檢查grade表個是否有此值，若無，顯示彈窗錯誤，查無xxx年級。a",
+      "class": "班級a",
+      "cellPhone": "手機a",
+      "homePhoneNumber": "家用電話a",
+      "address": "聯絡地址a",
+      "courses": ["xxx","xxx", "檢查course表個是否有此值，若無，自動新增，並帶入新增後的courseID"]
+    },
+    {
+      "name": "姓名b",
+      "gender": "性別b",
+      "birthdate": "出生年月日(西元年)b",
+      "school": "學校b",
+      "grade": "年級，檢查grade表個是否有此值，若無，顯示彈窗錯誤，查無xxx年級。b",
+      "class": "班級b",
+      "cellPhone": "手機b",
+      "homePhoneNumber": "家用電話b",
+      "address": "聯絡地址b",
+      "courses": ["xxx","xxx", "檢查course表個是否有此值，若無，自動新增，並帶入新增後的courseID"]
+    }
+  ],
+  "communicationNotes": [
+    {
+      "interviewee": "被訪問人員",
+      "identityId": "身份，先查identity資料表有沒有此身份，若無自動新增，新增完後填入presale資料表",
+      "gender": "性別",
+      "cellPhone": "手機",
+      "homePhoneNumber": "家用電話",
+      "interviewer": "電訪人員。因匯入的資料表，可能含有非管理員之人員，若要檢查，會造成不便。",
+      "phoneInterviewTime": "電訪時間",
+      "note": "通話紀錄。xxxxxxxx...",
+      "specialNote": "特殊備註。xxxxxx..."
+    },
+    {
+      "interviewee": "被訪問人員",
+      "identityId": "身份，先查identity資料表有沒有此身份，若無自動新增，新增完後填入presale資料表",
+      "gender": "性別",
+      "cellPhone": "手機",
+      "homePhoneNumber": "家用電話",
+      "interviewer": "電訪人員。因匯入的資料表，可能含有非管理員之人員，若要檢查，會造成不便。",
+      "phoneInterviewTime": "電訪時間",
+      "note": "通話紀錄。xxxxxxxx...",
+      "specialNote": "特殊備註。xxxxxx..."
+    }
+  ]
+}
